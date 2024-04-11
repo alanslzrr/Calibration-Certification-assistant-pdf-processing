@@ -14,6 +14,9 @@
 
 - **Cálculo de Incertidumbre**: La aplicación calcula la incertidumbre de medición basándose en la selección del usuario, utilizando los datos del certificado seleccionado. Se toman en cuenta la incertidumbre de medición especificada y el CMC (Capacidad de Medición y Calibración), realizando cálculos internos para determinar la incertidumbre total.
 
+![CalculoIncertidumbre](formula.png)
+
+
 - **Resultados**: Se presentan al usuario los detalles seleccionados y el resultado del cálculo de incertidumbre total.
 
 ### 2. Ingreso Manual del Número de Certificado
