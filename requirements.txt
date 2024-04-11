@@ -1,0 +1,6 @@
+streamlit
+openpyxl
+camelot-py[cv]
+PyMuPDF==1.19.6
+pandas
+numpy
