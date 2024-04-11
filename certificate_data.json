@@ -1,0 +1,1560 @@
+{
+  "C295447": {
+    "CertNo": "C295447",
+    "datasheet_info": {
+      "Asset No.:": "10436",
+      "Contact:": "Frander Cordero",
+      "Customer:": "Phoenix Calibration",
+      "Description:": "MYA 21.4Y Microbalance",
+      "Location:": "L1",
+      "Manufacturer:": "Radwag",
+      "Model No.:": "MYA 21.4Y",
+      "Range:": "21g",
+      "Serial No.:": "607706",
+      "Service No.:": "42321"
+    },
+    "measurements": {
+      "weight_-___sensitivity": [
+        {
+          "asfound": "0.005002",
+          "highlimit": "0.005007",
+          "low_limit": "0.004993",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "n/a",
+          "nominal": "0.0050002",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_center": [
+        {
+          "asfound": "10.000012",
+          "highlimit": "10.000023",
+          "low_limit": "9.999995",
+          "max._error(tol.)": "0.000014",
+          "meas._uncert.": "n/a",
+          "nominal": "10.0000086",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_east": [
+        {
+          "asfound": "10.000016",
+          "highlimit": "10.000023",
+          "low_limit": "9.999995",
+          "max._error(tol.)": "0.000014",
+          "meas._uncert.": "n/a",
+          "nominal": "10.0000086",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_north": [
+        {
+          "asfound": "10.000017",
+          "highlimit": "10.000023",
+          "low_limit": "9.999995",
+          "max._error(tol.)": "0.000014",
+          "meas._uncert.": "n/a",
+          "nominal": "10.0000086",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_south": [
+        {
+          "asfound": "10.000018",
+          "highlimit": "10.000023",
+          "low_limit": "9.999995",
+          "max._error(tol.)": "0.000014",
+          "meas._uncert.": "n/a",
+          "nominal": "10.0000086",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_west": [
+        {
+          "asfound": "10.000012",
+          "highlimit": "10.000023",
+          "low_limit": "9.999995",
+          "max._error(tol.)": "0.000014",
+          "meas._uncert.": "n/a",
+          "nominal": "10.0000086",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_linearity_down": [
+        {
+          "asfound": "0.000000",
+          "highlimit": "0.000007",
+          "low_limit": "-0.000007",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000015",
+          "nominal": "0.0000000",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.005002",
+          "highlimit": "0.005007",
+          "low_limit": "0.004993",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000015",
+          "nominal": "0.0050002",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.009991",
+          "highlimit": "0.010003",
+          "low_limit": "0.009989",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000015",
+          "nominal": "0.0099964",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.020001",
+          "highlimit": "0.020015",
+          "low_limit": "0.020001",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000015",
+          "nominal": "0.0200080",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.050000",
+          "highlimit": "0.050007",
+          "low_limit": "0.049993",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000015",
+          "nominal": "0.0499995",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.100002",
+          "highlimit": "0.100005",
+          "low_limit": "0.099991",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000015",
+          "nominal": "0.0999981",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.499999",
+          "highlimit": "0.500010",
+          "low_limit": "0.499996",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000052",
+          "nominal": "0.5000028",
+          "tur": "0.1:1",
+          "units": "g"
+        },
+        {
+          "asfound": "1.000000",
+          "highlimit": "1.000013",
+          "low_limit": "0.999999",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000052",
+          "nominal": "1.0000057",
+          "tur": "0.1:1",
+          "units": "g"
+        },
+        {
+          "asfound": "5.000004",
+          "highlimit": "5.000015",
+          "low_limit": "5.000001",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000063",
+          "nominal": "5.0000080",
+          "tur": "0.1:1",
+          "units": "g"
+        },
+        {
+          "asfound": "10.000012",
+          "highlimit": "10.000016",
+          "low_limit": "10.000002",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000063",
+          "nominal": "10.0000086",
+          "tur": "0.1:1",
+          "units": "g"
+        },
+        {
+          "asfound": "15.000014",
+          "highlimit": "15.000024",
+          "low_limit": "15.000010",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000063",
+          "nominal": "15.0000166",
+          "tur": "0.1:1",
+          "units": "g"
+        },
+        {
+          "asfound": "21.000012",
+          "highlimit": "21.000022",
+          "low_limit": "21.000008",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000063",
+          "nominal": "21.0000145",
+          "tur": "0.1:1",
+          "units": "g"
+        }
+      ],
+      "weight_-_linearity_up": [
+        {
+          "asfound": "0.000000",
+          "highlimit": "0.000007",
+          "low_limit": "-0.000007",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "n/a",
+          "nominal": "0.0000000",
+          "tur": "n/a",
+          "units": "g"
+        },
+        {
+          "asfound": "0.005002",
+          "highlimit": "0.005007",
+          "low_limit": "0.004993",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000015",
+          "nominal": "0.0050002",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.009992",
+          "highlimit": "0.010003",
+          "low_limit": "0.009989",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000015",
+          "nominal": "0.0099964",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.020005",
+          "highlimit": "0.020015",
+          "low_limit": "0.020001",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000015",
+          "nominal": "0.0200080",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.050000",
+          "highlimit": "0.050007",
+          "low_limit": "0.049993",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000015",
+          "nominal": "0.0499995",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.100002",
+          "highlimit": "0.100005",
+          "low_limit": "0.099991",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000015",
+          "nominal": "0.0999981",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.499999",
+          "highlimit": "0.500010",
+          "low_limit": "0.499996",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000052",
+          "nominal": "0.5000028",
+          "tur": "0.1:1",
+          "units": "g"
+        },
+        {
+          "asfound": "1.000000",
+          "highlimit": "1.000013",
+          "low_limit": "0.999999",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000052",
+          "nominal": "1.0000057",
+          "tur": "0.1:1",
+          "units": "g"
+        },
+        {
+          "asfound": "5.000007",
+          "highlimit": "5.000008",
+          "low_limit": "4.999994",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000063",
+          "nominal": "5.0000010",
+          "tur": "0.1:1",
+          "units": "g"
+        },
+        {
+          "asfound": "10.000003",
+          "highlimit": "10.000016",
+          "low_limit": "10.000002",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000063",
+          "nominal": "10.0000086",
+          "tur": "0.1:1",
+          "units": "g"
+        },
+        {
+          "asfound": "15.000020",
+          "highlimit": "15.000024",
+          "low_limit": "15.000010",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000063",
+          "nominal": "15.0000166",
+          "tur": "0.1:1",
+          "units": "g"
+        },
+        {
+          "asfound": "21.000013",
+          "highlimit": "21.000022",
+          "low_limit": "21.000008",
+          "max._error(tol.)": "0.000007",
+          "meas._uncert.": "0.000063",
+          "nominal": "21.0000147",
+          "tur": "0.1:1",
+          "units": "g"
+        }
+      ]
+    }
+  },
+  "C310211": {
+    "CertNo": "C310211",
+    "datasheet_info": {
+      "Asset No.:": "10951",
+      "Contact:": "Bryan Ricart",
+      "Customer:": "Phoenix Calibration",
+      "Description:": "AS 82/220.X2 ANALYTICAL BALANCE",
+      "Location:": "N/D",
+      "Manufacturer:": "Radwag",
+      "Model No.:": "AS 82/220.X2 Plus",
+      "Range:": "See datasheets",
+      "Serial No.:": "716305",
+      "Service No.:": "44711"
+    },
+    "measurements": {
+      "weight_-_____sensitivity": [
+        {
+          "asfound": "0.00199",
+          "highlimit": "0.00206",
+          "low_limit": "0.00194",
+          "max._error(tol.)": "0.00006",
+          "meas._uncert.": "n/a",
+          "nominal": "0.0019980",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_center": [
+        {
+          "asfound": "69.99980",
+          "highlimit": "70.00041",
+          "low_limit": "69.99961",
+          "max._error(tol.)": "0.0004",
+          "meas._uncert.": "n/a",
+          "nominal": "70.000008",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_east": [
+        {
+          "asfound": "69.99980",
+          "highlimit": "70.00041",
+          "low_limit": "69.99961",
+          "max._error(tol.)": "0.0004",
+          "meas._uncert.": "n/a",
+          "nominal": "70.000008",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_north": [
+        {
+          "asfound": "69.99980",
+          "highlimit": "70.00041",
+          "low_limit": "69.99961",
+          "max._error(tol.)": "0.0004",
+          "meas._uncert.": "n/a",
+          "nominal": "70.000008",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_south": [
+        {
+          "asfound": "69.99970",
+          "highlimit": "70.00041",
+          "low_limit": "69.99961",
+          "max._error(tol.)": "0.0004",
+          "meas._uncert.": "n/a",
+          "nominal": "70.000008",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_west": [
+        {
+          "asfound": "69.99980",
+          "highlimit": "70.00041",
+          "low_limit": "69.99961",
+          "max._error(tol.)": "0.0004",
+          "meas._uncert.": "n/a",
+          "nominal": "70.000008",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_linearity_down": [
+        {
+          "asfound": "0.00000",
+          "highlimit": "0.00005",
+          "low_limit": "-0.00005",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "n/a",
+          "nominal": "0.0000000",
+          "tur": "n/a",
+          "units": "g"
+        },
+        {
+          "asfound": "0.00500",
+          "highlimit": "0.00505",
+          "low_limit": "0.00495",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000010",
+          "nominal": "0.0050010",
+          "tur": "8.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.20000",
+          "highlimit": "0.20005",
+          "low_limit": "0.19995",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000010",
+          "nominal": "0.2000010",
+          "tur": "8.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "1.00000",
+          "highlimit": "1.00006",
+          "low_limit": "0.99996",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000022",
+          "nominal": "1.0000057",
+          "tur": "2.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "5.00000",
+          "highlimit": "5.00006",
+          "low_limit": "4.99996",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.00003",
+          "nominal": "5.0000080",
+          "tur": "1.7:1",
+          "units": "g"
+        },
+        {
+          "asfound": "10.00000",
+          "highlimit": "10.00006",
+          "low_limit": "9.99996",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000044",
+          "nominal": "10.000009",
+          "tur": "1.2:1",
+          "units": "g"
+        },
+        {
+          "asfound": "50.00000",
+          "highlimit": "50.00008",
+          "low_limit": "49.99998",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.00010",
+          "nominal": "50.000030",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "80.00003",
+          "highlimit": "80.00007",
+          "low_limit": "79.99997",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.00011",
+          "nominal": "80.000016",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "99.9998",
+          "highlimit": "100.0002",
+          "low_limit": "99.9998",
+          "max._error(tol.)": "0.0002",
+          "meas._uncert.": "0.00017",
+          "nominal": "100.000000",
+          "tur": "1.3:1",
+          "units": "g"
+        },
+        {
+          "asfound": "149.9999",
+          "highlimit": "150.0002",
+          "low_limit": "149.9998",
+          "max._error(tol.)": "0.0002",
+          "meas._uncert.": "0.0003",
+          "nominal": "150.000030",
+          "tur": "0.7:1",
+          "units": "g"
+        },
+        {
+          "asfound": "199.9998",
+          "highlimit": "200.0002",
+          "low_limit": "199.9998",
+          "max._error(tol.)": "0.0002",
+          "meas._uncert.": "0.0003",
+          "nominal": "200.000038",
+          "tur": "0.7:1",
+          "units": "g"
+        }
+      ],
+      "weight_-_linearity_up": [
+        {
+          "asfound": "0.00000",
+          "highlimit": "0.00005",
+          "low_limit": "-0.00005",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "n/a",
+          "nominal": "0.0000000",
+          "tur": "n/a",
+          "units": "g"
+        },
+        {
+          "asfound": "0.00502",
+          "highlimit": "0.00505",
+          "low_limit": "0.00495",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000010",
+          "nominal": "0.0050010",
+          "tur": "8.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.20003",
+          "highlimit": "0.20005",
+          "low_limit": "0.19995",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000010",
+          "nominal": "0.2000010",
+          "tur": "8.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "1.00002",
+          "highlimit": "1.00006",
+          "low_limit": "0.99996",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000022",
+          "nominal": "1.0000057",
+          "tur": "2.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "5.00005",
+          "highlimit": "5.00006",
+          "low_limit": "4.99996",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.00003",
+          "nominal": "5.0000080",
+          "tur": "1.7:1",
+          "units": "g"
+        },
+        {
+          "asfound": "10.00003",
+          "highlimit": "10.00006",
+          "low_limit": "9.99996",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000044",
+          "nominal": "10.000009",
+          "tur": "1.2:1",
+          "units": "g"
+        },
+        {
+          "asfound": "50.00000",
+          "highlimit": "50.00008",
+          "low_limit": "49.99998",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.00010",
+          "nominal": "50.000030",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "80.00004",
+          "highlimit": "80.00007",
+          "low_limit": "79.99997",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.00011",
+          "nominal": "80.000016",
+          "tur": "0.5:1",
+          "units": "g"
+        },
+        {
+          "asfound": "100.0000",
+          "highlimit": "100.0002",
+          "low_limit": "99.9998",
+          "max._error(tol.)": "0.0002",
+          "meas._uncert.": "0.00017",
+          "nominal": "100.000000",
+          "tur": "1.3:1",
+          "units": "g"
+        },
+        {
+          "asfound": "149.9999",
+          "highlimit": "150.0002",
+          "low_limit": "149.9998",
+          "max._error(tol.)": "0.0002",
+          "meas._uncert.": "0.0003",
+          "nominal": "150.000030",
+          "tur": "0.7:1",
+          "units": "g"
+        },
+        {
+          "asfound": "199.9998",
+          "highlimit": "200.0002",
+          "low_limit": "199.9998",
+          "max._error(tol.)": "0.0002",
+          "meas._uncert.": "0.0003",
+          "nominal": "200.000038",
+          "tur": "0.7:1",
+          "units": "g"
+        }
+      ]
+    }
+  },
+  "C319402": {
+    "CertNo": "C319402",
+    "datasheet_info": {
+      "Asset No.:": "10951",
+      "Contact:": "Bryan Ricart",
+      "Customer:": "Phoenix Calibration",
+      "Description:": "AS 82/220.X2 ANALYTICAL BALANCE",
+      "Location:": "N/D",
+      "Manufacturer:": "Radwag",
+      "Model No.:": "AS 82/220.X2 Plus",
+      "Range:": "See datasheets",
+      "Serial No.:": "716305",
+      "Service No.:": "46336"
+    },
+    "measurements": {
+      "weight_-__linearity_down": [
+        {
+          "asfound": "0.00000",
+          "highlimit": "0.00005",
+          "low_limit": "-0.00005",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "1.1",
+          "nominal": "0.0000000",
+          "tur": ">10:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.00500",
+          "highlimit": "0.00505",
+          "low_limit": "0.00495",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000028",
+          "nominal": "0.0049985",
+          "tur": "1.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.20001",
+          "highlimit": "0.20005",
+          "low_limit": "0.19995",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000028",
+          "nominal": "0.2000021",
+          "tur": "1.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "1.00002",
+          "highlimit": "1.00006",
+          "low_limit": "0.99996",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000028",
+          "nominal": "1.0000106",
+          "tur": "1.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "5.00002",
+          "highlimit": "5.00006",
+          "low_limit": "4.99996",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000028",
+          "nominal": "5.0000148",
+          "tur": "1.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "10.00002",
+          "highlimit": "10.00004",
+          "low_limit": "9.99994",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "1.1",
+          "nominal": "9.999991",
+          "tur": "2.1:1",
+          "units": "g"
+        },
+        {
+          "asfound": "50.00006",
+          "highlimit": "50.00008",
+          "low_limit": "49.99998",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000084",
+          "nominal": "50.000034",
+          "tur": "0.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "80.00006",
+          "highlimit": "80.00007",
+          "low_limit": "79.99997",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000084",
+          "nominal": "80.000018",
+          "tur": "0.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "100.0001",
+          "highlimit": "100.0002",
+          "low_limit": "99.9998",
+          "max._error(tol.)": "0.0002",
+          "meas._uncert.": "0.00012",
+          "nominal": "100.000037",
+          "tur": "2.4:1",
+          "units": "g"
+        },
+        {
+          "asfound": "150.0002",
+          "highlimit": "150.0003",
+          "low_limit": "149.9999",
+          "max._error(tol.)": "0.0002",
+          "meas._uncert.": "0.00012",
+          "nominal": "150.000071",
+          "tur": "2.4:1",
+          "units": "g"
+        },
+        {
+          "asfound": "199.9999",
+          "highlimit": "200.0002",
+          "low_limit": "199.9998",
+          "max._error(tol.)": "0.0002",
+          "meas._uncert.": "0.00012",
+          "nominal": "199.999956",
+          "tur": "2.4:1",
+          "units": "g"
+        }
+      ],
+      "weight_-__linearity_up": [
+        {
+          "asfound": "0.00000",
+          "highlimit": "0.00005",
+          "low_limit": "-0.00005",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "1.1",
+          "nominal": "0.0000000",
+          "tur": ">10:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.00500",
+          "highlimit": "0.00505",
+          "low_limit": "0.00495",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000028",
+          "nominal": "0.0049985",
+          "tur": "1.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.20000",
+          "highlimit": "0.20005",
+          "low_limit": "0.19995",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000028",
+          "nominal": "0.2000021",
+          "tur": "1.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "1.00001",
+          "highlimit": "1.00006",
+          "low_limit": "0.99996",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000028",
+          "nominal": "1.0000106",
+          "tur": "1.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "5.00005",
+          "highlimit": "5.00006",
+          "low_limit": "4.99996",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000028",
+          "nominal": "5.0000148",
+          "tur": "1.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "10.00000",
+          "highlimit": "10.00004",
+          "low_limit": "9.99994",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "1.1",
+          "nominal": "9.999991",
+          "tur": "2.1:1",
+          "units": "g"
+        },
+        {
+          "asfound": "50.00000",
+          "highlimit": "50.00008",
+          "low_limit": "49.99998",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000084",
+          "nominal": "50.000034",
+          "tur": "0.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "80.00007",
+          "highlimit": "80.00007",
+          "low_limit": "79.99997",
+          "max._error(tol.)": "0.00005",
+          "meas._uncert.": "0.000084",
+          "nominal": "80.000018",
+          "tur": "0.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "100.0002",
+          "highlimit": "100.0002",
+          "low_limit": "99.9998",
+          "max._error(tol.)": "0.0002",
+          "meas._uncert.": "0.00012",
+          "nominal": "100.000037",
+          "tur": "2.4:1",
+          "units": "g"
+        },
+        {
+          "asfound": "150.0003",
+          "highlimit": "150.0003",
+          "low_limit": "149.9999",
+          "max._error(tol.)": "0.0002",
+          "meas._uncert.": "0.00012",
+          "nominal": "150.000071",
+          "tur": "2.4:1",
+          "units": "g"
+        },
+        {
+          "asfound": "199.9999",
+          "highlimit": "200.0002",
+          "low_limit": "199.9998",
+          "max._error(tol.)": "0.0002",
+          "meas._uncert.": "0.00012",
+          "nominal": "199.999956",
+          "tur": "2.4:1",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_center": [
+        {
+          "asfound": "100.00010",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "100.000037",
+          "tur": "n/a",
+          "units": "g"
+        },
+        {
+          "asfound": "100.00000",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "100.000037",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_northeast": [
+        {
+          "asfound": "100.00000",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "100.000037",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_southeast": [
+        {
+          "asfound": "100.00010",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "100.000037",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_southwest": [
+        {
+          "asfound": "100.00000",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "100.000037",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_g_-_-_-_200mg_stddev": [
+        {
+          "asfound": "0.5692086",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "0.0000000",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_g_-_-_excentricity": [
+        {
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "N/A",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ]
+    }
+  },
+  "C347041": {
+    "CertNo": "C347041",
+    "datasheet_info": {
+      "Asset No.:": "HML2252",
+      "Contact:": "Erainy Gonzalez",
+      "Customer:": "HAYCO DOMINICAN REPUBLIC CO SRL",
+      "Description:": "Scale and Balances",
+      "Location:": "N/D",
+      "Manufacturer:": "T-Scale",
+      "Model No.:": "03716100007",
+      "Range:": "See datasheet",
+      "Serial No.:": "NSN",
+      "Service No.:": "52376"
+    },
+    "measurements": {
+      "weight_-_eccentricity": [
+        {
+          "asfound": "0.00",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "N/A",
+          "tur": "n/a",
+          "units": "g"
+        },
+        {
+          "asfound": "N/A",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "**",
+          "meas._uncert.": "N/A",
+          "nominal": "n/a",
+          "tur": "N/A",
+          "units": "N/A"
+        }
+      ],
+      "weight_-_eccentricity_center": [
+        {
+          "asfound": "2000",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "2000",
+          "tur": "n/a",
+          "units": "g"
+        },
+        {
+          "asfound": "2000",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "2000",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_northeast": [
+        {
+          "asfound": "2000",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "2000",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_northwest": [
+        {
+          "asfound": "2000",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "2000",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_southeast": [
+        {
+          "asfound": "2000",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "2000",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_southwest": [
+        {
+          "asfound": "2000",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "2000",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_linearity_dn": [
+        {
+          "asfound": "4500",
+          "highlimit": "4505",
+          "low_limit": "4495",
+          "max._error(tol.)": "5",
+          "meas._uncert.": "1",
+          "nominal": "4500",
+          "tur": "8.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "3000",
+          "highlimit": "3005",
+          "low_limit": "2995",
+          "max._error(tol.)": "5",
+          "meas._uncert.": "1",
+          "nominal": "3000",
+          "tur": "8.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "1500",
+          "highlimit": "1505",
+          "low_limit": "1495",
+          "max._error(tol.)": "5",
+          "meas._uncert.": "1",
+          "nominal": "1500",
+          "tur": "8.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "700",
+          "highlimit": "705",
+          "low_limit": "695",
+          "max._error(tol.)": "5",
+          "meas._uncert.": "1",
+          "nominal": "700",
+          "tur": "8.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "500",
+          "highlimit": "505",
+          "low_limit": "495",
+          "max._error(tol.)": "5",
+          "meas._uncert.": "1",
+          "nominal": "500",
+          "tur": "8.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0",
+          "highlimit": "5",
+          "low_limit": "-5",
+          "max._error(tol.)": "5",
+          "meas._uncert.": "**",
+          "nominal": "0",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_linearity_up": [
+        {
+          "asfound": "0",
+          "highlimit": "5",
+          "low_limit": "-5",
+          "max._error(tol.)": "5",
+          "meas._uncert.": "**",
+          "nominal": "0",
+          "tur": "n/a",
+          "units": "g"
+        },
+        {
+          "asfound": "500",
+          "highlimit": "505",
+          "low_limit": "495",
+          "max._error(tol.)": "5",
+          "meas._uncert.": "1",
+          "nominal": "500",
+          "tur": "8.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "700",
+          "highlimit": "705",
+          "low_limit": "695",
+          "max._error(tol.)": "5",
+          "meas._uncert.": "1",
+          "nominal": "700",
+          "tur": "8.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "1500",
+          "highlimit": "1505",
+          "low_limit": "1495",
+          "max._error(tol.)": "5",
+          "meas._uncert.": "1",
+          "nominal": "1500",
+          "tur": "8.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "3000",
+          "highlimit": "3005",
+          "low_limit": "2995",
+          "max._error(tol.)": "5",
+          "meas._uncert.": "1",
+          "nominal": "3000",
+          "tur": "8.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "4500",
+          "highlimit": "4505",
+          "low_limit": "4495",
+          "max._error(tol.)": "5",
+          "meas._uncert.": "1",
+          "nominal": "4500",
+          "tur": "8.6:1",
+          "units": "g"
+        },
+        {
+          "asfound": "6000",
+          "highlimit": "6005",
+          "low_limit": "5995",
+          "max._error(tol.)": "5",
+          "meas._uncert.": "1",
+          "nominal": "6000",
+          "tur": "8.6:1",
+          "units": "g"
+        }
+      ],
+      "weight_-_std_dev": [
+        {
+          "asfound": "0.00",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "0.00",
+          "tur": "n/a",
+          "units": "g"
+        },
+        {
+          "asfound": "N/A",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "**",
+          "meas._uncert.": "N/A",
+          "nominal": "n/a",
+          "tur": "N/A",
+          "units": "N/A"
+        }
+      ]
+    }
+  },
+  "C350228": {
+    "CertNo": "C350228",
+    "datasheet_info": {
+      "Asset No.:": "B652498999",
+      "Contact:": "Ruddy Marius",
+      "Customer:": "La Fabril, C. por A.",
+      "Description:": "Balances/Scales",
+      "Location:": "Laboratorio Jaboneria",
+      "Manufacturer:": "Mettler Toledo",
+      "Model No.:": "ML6001T",
+      "Range:": "0 to 6200 g",
+      "Serial No.:": "B652498999",
+      "Service No.:": "52454"
+    },
+    "measurements": {
+      "weight_-_eccentricity": [
+        {
+          "asfound": "0.00577",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "N/A",
+          "tur": "n/a",
+          "units": "g"
+        },
+        {
+          "asfound": "N/A",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "**",
+          "meas._uncert.": "N/A",
+          "nominal": "n/a",
+          "tur": "N/A",
+          "units": "N/A"
+        }
+      ],
+      "weight_-_eccentricity_center": [
+        {
+          "asfound": "500.0",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "500.00",
+          "tur": "n/a",
+          "units": "g"
+        },
+        {
+          "asfound": "500.0",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "500.00",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_northeast": [
+        {
+          "asfound": "499.9",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "500.00",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_northwest": [
+        {
+          "asfound": "500.0",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "500.00",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_southeast": [
+        {
+          "asfound": "499.9",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "500.00",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_eccentricity_southwest": [
+        {
+          "asfound": "500.1",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "N/A",
+          "meas._uncert.": "**",
+          "nominal": "500.00",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_linearity_dw": [
+        {
+          "asfound": "5000.1",
+          "highlimit": "5000.2",
+          "low_limit": "4999.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "5000.00",
+          "tur": "5.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "4000.0",
+          "highlimit": "4000.2",
+          "low_limit": "3999.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "4000.00",
+          "tur": "5.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "3000.0",
+          "highlimit": "3000.2",
+          "low_limit": "2999.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "3000.00",
+          "tur": "5.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "2000.0",
+          "highlimit": "2000.2",
+          "low_limit": "1999.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "2000.00",
+          "tur": ">10:1",
+          "units": "g"
+        },
+        {
+          "asfound": "1000.0",
+          "highlimit": "1000.2",
+          "low_limit": "999.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "1000.00",
+          "tur": ">10:1",
+          "units": "g"
+        },
+        {
+          "asfound": "100.0",
+          "highlimit": "100.2",
+          "low_limit": "99.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "100.00",
+          "tur": ">10:1",
+          "units": "g"
+        },
+        {
+          "asfound": "50.0",
+          "highlimit": "50.2",
+          "low_limit": "49.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "50.00",
+          "tur": ">10:1",
+          "units": "g"
+        },
+        {
+          "asfound": "10.0",
+          "highlimit": "10.2",
+          "low_limit": "9.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "10.00",
+          "tur": ">10:1",
+          "units": "g"
+        },
+        {
+          "asfound": "0.0",
+          "highlimit": "0.2",
+          "low_limit": "-0.2",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "**",
+          "nominal": "0.00",
+          "tur": "n/a",
+          "units": "g"
+        }
+      ],
+      "weight_-_linearity_up": [
+        {
+          "asfound": "0.0",
+          "highlimit": "0.2",
+          "low_limit": "-0.2",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "**",
+          "nominal": "0.00",
+          "tur": "n/a",
+          "units": "g"
+        },
+        {
+          "asfound": "10.0",
+          "highlimit": "10.2",
+          "low_limit": "9.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "10.00",
+          "tur": ">10:1",
+          "units": "g"
+        },
+        {
+          "asfound": "50.0",
+          "highlimit": "50.2",
+          "low_limit": "49.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "50.00",
+          "tur": ">10:1",
+          "units": "g"
+        },
+        {
+          "asfound": "100.0",
+          "highlimit": "100.2",
+          "low_limit": "99.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "100.00",
+          "tur": ">10:1",
+          "units": "g"
+        },
+        {
+          "asfound": "1000.0",
+          "highlimit": "1000.2",
+          "low_limit": "999.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "1000.00",
+          "tur": ">10:1",
+          "units": "g"
+        },
+        {
+          "asfound": "2000.0",
+          "highlimit": "2000.2",
+          "low_limit": "1999.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "2000.00",
+          "tur": ">10:1",
+          "units": "g"
+        },
+        {
+          "asfound": "3000.0",
+          "highlimit": "3000.2",
+          "low_limit": "2999.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "3000.00",
+          "tur": "5.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "4000.0",
+          "highlimit": "4000.2",
+          "low_limit": "3999.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "4000.00",
+          "tur": "5.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "5000.0",
+          "highlimit": "5000.2",
+          "low_limit": "4999.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.12",
+          "nominal": "5000.00",
+          "tur": "5.9:1",
+          "units": "g"
+        },
+        {
+          "asfound": "6200.0",
+          "highlimit": "6200.2",
+          "low_limit": "6199.8",
+          "max._error(tol.)": "0.2",
+          "meas._uncert.": "0.22",
+          "nominal": "6200.00",
+          "tur": "1.1:1",
+          "units": "g"
+        }
+      ],
+      "weight_-_std_dev": [
+        {
+          "asfound": "0",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "0.005",
+          "meas._uncert.": "**",
+          "nominal": "0.000",
+          "tur": "n/a",
+          "units": "g"
+        },
+        {
+          "asfound": "N/A",
+          "highlimit": "N/A",
+          "low_limit": "N/A",
+          "max._error(tol.)": "**",
+          "meas._uncert.": "N/A",
+          "nominal": "n/a",
+          "tur": "N/A",
+          "units": "N/A"
+        }
+      ]
+    }
+  }
+}
