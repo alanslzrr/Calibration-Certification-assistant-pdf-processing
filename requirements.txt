@@ -9,3 +9,4 @@ numpy
 altair==5.3.0
 excalibur-py==0.4.3
 flask
+pyopengl
