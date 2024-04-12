@@ -128,5 +128,3 @@ vine==5.1.0
 visualdl==2.5.3
 watchdog==4.0.0
 wcwidth==0.2.13
-Werkzeug==3.0.2
-wheel==0.43.0
