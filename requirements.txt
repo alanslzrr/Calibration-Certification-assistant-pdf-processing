@@ -1,4 +1,6 @@
 streamlit
+opencv-python-headless
+pytesseract
 openpyxl
 camelot-py[cv]
 PyMuPDF==1.19.6
