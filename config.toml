@@ -1,6 +1,7 @@
 # Configuración del tema personalizado en .streamlit/config.toml
 
 [theme]
+base = "light"
 primaryColor = "#ed6f38"
 backgroundColor = "#f9f9f9"
 secondaryBackgroundColor="#e8e8e8"
