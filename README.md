@@ -1,89 +1,92 @@
-# Asistente de Calibración y Certificados - PDF Procces
+# Calibration Assistant and PDF Certificate Processor
 
-## Asistente de Calibración
+## Overview
 
-### 1. Búsqueda por Modelo de Equipo
+This project consists of two main components: a Calibration Assistant for uncertainty calculations and a PDF Certificate Processor. These tools are designed to streamline the process of managing calibration data and certificates for measurement equipment.
 
-- **Ingreso del Modelo**: Los usuarios inician la interacción ingresando una parte del modelo del equipo en un campo de texto. Esta acción activa una búsqueda en una base de datos de certificados para encontrar coincidencias.
+## Calibration Assistant
 
-- **Selección de Certificado**: Los certificados que coinciden con el modelo ingresado se presentan al usuario. El usuario selecciona el certificado que desea consultar de la lista proporcionada.
+### 1. Equipment Model Search
 
-- **Selección de Detalles de Calibración**:
-  - Con el certificado seleccionado, se muestran las opciones para definir el grupo de medición objetivo, el valor nominal, y la unidad de medida.
-  - El usuario elige el grupo de medición objetivo (por ejemplo, 'weight_-_linearity_down'), selecciona el valor nominal específico dentro de ese grupo, y la unidad de medida correspondiente.
+- **Model Input**: Users initiate the interaction by entering part of the equipment model in a text field. This action triggers a search in a certificate database for matches.
 
-- **Cálculo de Incertidumbre**: La aplicación calcula la incertidumbre de medición basándose en la selección del usuario, utilizando los datos del certificado seleccionado. Se toman en cuenta la incertidumbre de medición especificada y el CMC (Capacidad de Medición y Calibración), realizando cálculos internos para determinar la incertidumbre total.
+- **Certificate Selection**: Certificates matching the entered model are presented to the user. The user selects the desired certificate from the provided list.
 
-![CalculoIncertidumbre](Formula.png)
+- **Calibration Details Selection**:
+  - With the selected certificate, options are displayed to define the target measurement group, nominal value, and unit of measurement.
+  - The user chooses the target measurement group (e.g., 'weight_-_linearity_down'), selects the specific nominal value within that group, and the corresponding unit of measurement.
 
+- **Uncertainty Calculation**: The application calculates the measurement uncertainty based on the user's selection, using data from the selected certificate. The specified measurement uncertainty and CMC (Calibration and Measurement Capability) are taken into account, performing internal calculations to determine the total uncertainty.
 
-- **Resultados**: Se presentan al usuario los detalles seleccionados y el resultado del cálculo de incertidumbre total.
+![UncertaintyCalculation](Formula.png)
 
-### 2. Ingreso Manual del Número de Certificado
+- **Results**: The selected details and the result of the total uncertainty calculation are presented to the user.
 
-- **Ingreso del Número de Certificado**: En esta modalidad, el usuario ingresa directamente el número de certificado en vez de buscar por modelo.
+### 2. Manual Certificate Number Entry
 
-- **Selección de Detalles de Calibración**: Similar al proceso después de seleccionar un certificado en la búsqueda por modelo, el usuario elige el grupo objetivo de medición, el valor nominal específico, y la unidad de medida.
+- **Certificate Number Input**: In this mode, the user directly enters the certificate number instead of searching by model.
 
-- **Cálculo de Incertidumbre**: Utilizando los datos ingresados manualmente, el sistema calcula la incertidumbre total de la misma manera que en el proceso de búsqueda por modelo, utilizando la incertidumbre de medición proporcionada y el CMC para los cálculos.
+- **Calibration Details Selection**: Similar to the process after selecting a certificate in the model search, the user chooses the target measurement group, specific nominal value, and unit of measurement.
 
-- **Resultados**: Se muestran al usuario los detalles de su selección junto con el resultado del cálculo de incertidumbre total.
+- **Uncertainty Calculation**: Using the manually entered data, the system calculates the total uncertainty in the same way as in the model search process, using the provided measurement uncertainty and CMC for calculations.
 
-### Notas Importantes sobre la Lógica de Cálculo de Incertidumbre
+- **Results**: The user is shown the details of their selection along with the result of the total uncertainty calculation.
 
-- Para ambos métodos, el cálculo de la incertidumbre se basa en los mismos principios y utiliza la misma función o método. La diferencia principal radica en cómo el usuario accede a la etapa de selección de detalles específicos para el cálculo (búsqueda por modelo vs. entrada manual del número de certificado).
-- La selección del grupo objetivo, valor nominal, y unidad de medida son pasos cruciales que determinan los parámetros específicos para el cálculo de la incertidumbre.
-- Los datos de certificado incluyen la incertidumbre de medición y el CMC, elementos fundamentales para calcular la incertidumbre total.
-- El cálculo considera el valor nominal en gramos (convertido si es necesario), el CMC fijo, el CMC proporcional, y la incertidumbre de medición especificada, combinándolos para producir la incertidumbre total expresada en gramos, miligramos y microgramos.
+### Important Notes on Uncertainty Calculation Logic
 
-## Procesamiento de Certificados en PDF
+- For both methods, the uncertainty calculation is based on the same principles and uses the same function or method. The main difference lies in how the user accesses the stage of selecting specific details for the calculation (model search vs. manual certificate number entry).
+- The selection of the target group, nominal value, and unit of measurement are crucial steps that determine the specific parameters for the uncertainty calculation.
+- Certificate data includes measurement uncertainty and CMC, fundamental elements for calculating total uncertainty.
+- The calculation considers the nominal value in grams (converted if necessary), fixed CMC, proportional CMC, and specified measurement uncertainty, combining them to produce the total uncertainty expressed in grams, milligrams, and micrograms.
 
-### Inicio de la Aplicación en Streamlit:
+## PDF Certificate Processor
 
-- La aplicación Streamlit se inicia con un título descriptivo y un cargador de archivos que acepta archivos PDF.
+### Application Startup in Streamlit:
 
-### Carga y Procesamiento de PDF:
+- The Streamlit application starts with a descriptive title and a file uploader that accepts PDF files.
 
-- El usuario carga un archivo PDF.
-- El archivo PDF se guarda temporalmente para su procesamiento.
-- Se extrae el número de certificado del PDF usando `PyMuPDF` (fitz) y expresiones regulares, identificando un patrón específico dentro de la primera página del documento.
+### PDF Loading and Processing:
 
-### Extracción de Tablas del PDF:
+- The user uploads a PDF file.
+- The PDF file is temporarily saved for processing.
+- The certificate number is extracted from the PDF using `PyMuPDF` (fitz) and regular expressions, identifying a specific pattern within the first page of the document.
 
-- El PDF se procesa página por página.
-  - Para la primera página, se extraen tablas utilizando coordenadas específicas que capturan áreas precisas de interés.
-  - Para las páginas subsiguientes, se ajustan las áreas de extracción y se definen columnas específicas si es necesario, para adaptarse a posibles variaciones en la estructura o formato de las tablas.
-- Se determina si algunas columnas dentro de las tablas extraídas deben eliminarse basándose en criterios específicos, como la presencia de ciertos caracteres o la falta de datos significativos.
+### Table Extraction from PDF:
 
-### Generación de Archivo XLSX:
+- The PDF is processed page by page.
+  - For the first page, tables are extracted using specific coordinates that capture precise areas of interest.
+  - For subsequent pages, extraction areas are adjusted and specific columns are defined if necessary to adapt to possible variations in table structure or format.
+- It is determined if some columns within the extracted tables should be removed based on specific criteria, such as the presence of certain characters or lack of significant data.
 
-- Los datos extraídos se organizan y se guardan en un archivo XLSX en memoria, utilizando `openpyxl`.
-- Se ofrece al usuario la opción de descargar este archivo XLSX.
+### XLSX File Generation:
 
-### Conversión de XLSX a JSON:
+- The extracted data is organized and saved in an XLSX file in memory, using `openpyxl`.
+- The user is offered the option to download this XLSX file.
 
-- El archivo XLSX en memoria se procesa para convertir los datos de las tablas a formato JSON.
-  - Se procesa específicamente la primera hoja para extraer datos generales del certificado.
-  - Las hojas subsiguientes se procesan para extraer datos de mediciones y resultados, omitiendo líneas o palabras clave específicas que no son relevantes para la estructuración de datos.
-- Los datos convertidos a JSON se ofrecen al usuario para su descarga.
+### XLSX to JSON Conversion:
 
-### Actualización de Archivo JSON Acumulativo:
+- The XLSX file in memory is processed to convert the table data to JSON format.
+  - Specifically, the first sheet is processed to extract general certificate data.
+  - Subsequent sheets are processed to extract measurement and results data, omitting specific lines or keywords that are not relevant for data structuring.
+- The data converted to JSON is offered to the user for download.
 
-- Se actualiza un archivo JSON acumulativo (`certificate_data.json`) con los nuevos datos del certificado.
-- Este archivo mantiene una colección de todos los certificados procesados, utilizando el número de certificado como clave para cada entrada.
-- Si el archivo no existe, se crea; si ya existe, se lee y se actualiza con los nuevos datos sin sobrescribir los datos existentes.
+### Cumulative JSON File Update:
 
-### Manejo de Errores y Limpieza:
+- A cumulative JSON file (`certificate_data.json`) is updated with the new certificate data.
+- This file maintains a collection of all processed certificates, using the certificate number as a key for each entry.
+- If the file doesn't exist, it's created; if it already exists, it's read and updated with the new data without overwriting existing data.
 
-- Se manejan posibles errores durante el proceso, como problemas al eliminar el archivo PDF temporal.
-- Se asegura la limpieza de recursos temporales y la correcta finalización del proceso.
+### Error Handling and Cleanup:
 
-### Consideraciones Específicas
+- Possible errors during the process are handled, such as issues when deleting the temporary PDF file.
+- The cleanup of temporary resources and proper process termination are ensured.
 
-#### Extracción y Procesamiento de Tablas:
+### Specific Considerations
 
-- Se utilizan técnicas específicas para ajustar la extracción de tablas a los diferentes formatos encontrados en los PDFs, incluyendo la definición de áreas de extracción y la eliminación de columnas basadas en contenido específico.
+#### Table Extraction and Processing:
 
-#### Ajustes en la Extracción de Datos para JSON:
+- Specific techniques are used to adjust table extraction to different formats found in PDFs, including defining extraction areas and removing columns based on specific content.
 
-- El proceso de conversión de datos a JSON se ajusta para manejar variaciones en los datos de las tablas, como omitir ciertas líneas o ajustar el manejo de celdas combinadas.
+#### Adjustments in Data Extraction for JSON:
+
+- The process of converting data to JSON is adjusted to handle variations in table data, such as omitting certain lines or adjusting the handling of merged cells.
